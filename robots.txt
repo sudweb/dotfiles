@@ -2,4 +2,10 @@
 
 # Autoriser l'indexation par tous les agents utilisateurs
 User-agent: *
-Disallow:
+
+Disallow: /2023/erreur
+Disallow: /2023/merci-contact
+Disallow: /2023/merci
+
+# Preprod 2023
+Disallow: /2023-next
